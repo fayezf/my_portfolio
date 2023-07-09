@@ -46,7 +46,7 @@ const Banner = () => {
                     </div>
                     <div className='text-center space-x-4'>
                         <button className="btn btn-accent border-none text-white bg-teal-700">Hire Me</button>
-                        <button className="btn btn-sm btn-accent text-white"><a href="/public/fayez_resume.pdf">Resume</a> <FaArrowRight /></button>
+                        <button className="btn btn-sm btn-accent text-white"><a href="/public/fayez_resume.pdf">Resume</a><FaArrowRight /></button>
                     </div>
                 </div>
             </div>
