@@ -6,13 +6,13 @@ import { FaArrowRight, FaFacebookSquare, FaGithubSquare, FaInstagram, FaLinkedin
 
 const Banner = () => {
 
-    const handleDownload = () => {
-        const url = "/public/fayez_resume.pdf";
-        const anchor = document.createElement("a");
-        anchor.href = url;
-        anchor.download = "resume.pdf";
-        anchor.click();
-    }
+    // const handleDownload = () => {
+    //     const url = "/public/fayez_resume.pdf";
+    //     const anchor = document.createElement("a");
+    //     anchor.href = url;
+    //     anchor.download = "resume.pdf";
+    //     anchor.click();
+    // }
     return (
         <div>
             <div className='flex flex-col md:flex-row-reverse items-center mt-12 mr-24'>
@@ -46,7 +46,7 @@ const Banner = () => {
                     </div>
                     <div className='text-center space-x-4'>
                         <button className="btn btn-accent border-none text-white bg-teal-700">Hire Me</button>
-                        <button className="btn btn-sm btn-accent text-white" onClick={handleDownload}>Resume <FaArrowRight /></button>
+                        <button className="btn btn-sm btn-accent text-white"><a href="/public/fayez_resume.pdf">Resume</a> <FaArrowRight /></button>
                     </div>
                 </div>
             </div>
