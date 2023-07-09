@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "1",
+        "name": "Web Designing",
+        "image": "https://i.ibb.co/zh2jg6p/web-Design.png",
+        "description": "I am expert in web designing. I can add functionality besides designing a webpage. I use HTML, CSS, Bootstrap, Tailwind, Vanilla Js, React JS for it. You can see some of my works below"
+    },
+    {
+        "_id": "2",
+        "name": "Mern Stack Developer",
+        "image": "https://i.ibb.co/1fYP01k/mern.jpg",
+        "description": "I am a MERN stack web developer. I use MongoDB for database and Express JS, Node Js for server side work. You can see i have done some MERN project."
+    },
+    {
+        "_id": "3",
+        "name": "PSD To HTML",
+        "image": "https://i.ibb.co/MgJZ8St/psd.png",
+        "description": "I can covert any PSD design to a responsive webpage. I use HTML, CSS, Bootstrap, Tailwind, Vanilla Js, React JS for it. You can see some of my works in portfolio tab in this website."
+    }
+]
