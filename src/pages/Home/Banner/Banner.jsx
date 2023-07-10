@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import img from '../../../assets/image/img.png';
-import { FaArrowRight, FaFacebookSquare, FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 
 const Banner = () => {
@@ -46,7 +46,7 @@ const Banner = () => {
                     </div>
                     <div className='text-center space-x-4'>
                         <button className="btn btn-accent border-none text-white bg-teal-700">Hire Me</button>
-                        <button className="btn btn-sm btn-accent text-white"><a href="/src/assets/fayez_resume.pdf">Resume</a><FaArrowRight /></button>
+                        <button className="btn btn-sm btn-accent text-white"><a href="/src/assets/fayez_resume.pdf" download>Get Resume</a></button>
                     </div>
                 </div>
             </div>
