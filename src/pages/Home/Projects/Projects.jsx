@@ -15,7 +15,7 @@ const Projects = () => {
     return (
         <div>
             <h2 className='text-3xl text-center font-montserrat text-teal-400 font-bold'>My Recent Projects</h2>
-            <div className='md:flex gap-4 my-16' data-aos = "fade-up">
+            <div className='md:flex gap-4 my-16 px-8' data-aos = "fade-up">
                 <div className="carousel w-1/4 ml-80 ">
                     <div id="slide1" className="carousel-item relative w-full">
                         <img src={img1} className="w-full" />
@@ -47,14 +47,14 @@ const Projects = () => {
                     </div>
                 </div>
                 <div>
-                    <h2 className='text-2xl text-[#f91944] font-montserrat'>Tiger-Claw Martial School</h2>
+                    <h2 className='text-2xl text-slate-400 font-montserrat'>Tiger-Claw Martial School</h2>
                     <h2 className='text-teal-400 font-montserrat'>This is an Full-Stack martial arts school website. User can <br /> Select Class and admission for available seat also can <br /> Complete payment via Online payment.</h2>
                     <li className='text-slate-400 font-montserrat'>Have admin, instructor and user different dashboard.</li>
                     <li className='text-slate-400 font-montserrat'>Admin can delete, manage users and manage classes.</li>
                     <li className='text-slate-400 font-montserrat'>Admin can make admin and instructor</li>
                     <li className='text-slate-400 font-montserrat'>User can Login via (Google Sign-in)</li>
-                    <li className='text-slate-400 font-montserrat'><span className='text-[#f91944]'>Front-end technology:</span>React js, Tailwind,React Router, Firebase Authentication</li>
-                    <li className='text-slate-400 font-montserrat'><span className='text-[#f91944]'>Back-end technology:</span>Node js,Express js, MongoDB</li>
+                    <li className='text-slate-400 font-montserrat'><span className='text-slate-400'>Front-end technology:</span>React js, Tailwind,React Router, Firebase Authentication</li>
+                    <li className='text-slate-400 font-montserrat'><span className='text-slate-400'>Back-end technology:</span>Node js,Express js, MongoDB</li>
                     <div className='md:flex gap-4'>
                         <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://martial-arts-69e3f.web.app/">Live Preview</a></button>
                         <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://github.com/fayezf/martial-client">Client Code</a></button>

@@ -23,7 +23,7 @@ const Banner = () => {
                     <div className='font-bold my-1 font-montserrat text-slate-400 text-center'>
                         <TypeAnimation
                             sequence={[
-                                'Mern Stack Developer',
+                                'MERN Stack Developer',
                                 1000,
                                 'React Developer',
                                 1000,
@@ -46,7 +46,7 @@ const Banner = () => {
                     </div>
                     <div className='text-center space-x-4'>
                         <button className="btn btn-accent border-none text-white bg-teal-700">Hire Me</button>
-                        <button className="btn btn-sm btn-accent text-white"><a href="/src/assets/fayez_resume.pdf" download>Get Resume</a></button>
+                        <button className="btn btn-sm btn-accent text-white"><a href="fayez_resume.pdf" download>Get Resume</a></button>
                     </div>
                 </div>
             </div>

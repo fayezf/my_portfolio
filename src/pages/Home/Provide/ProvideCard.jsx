@@ -10,7 +10,7 @@ const ProvideCard = ({ provide }) => {
     }, [])
 
     return (
-        <div className="card h-96 w-80 border border-transparent hover:border-teal-300 my-8 shadow-slate-100 shadow-md" data-aos="fade-up" data-aos-duration="1500">
+        <div className="card h-96 w-80 border border-transparent hover:border-teal-300 my-8 shadow-slate-100 shadow-md px-4" data-aos="fade-up" data-aos-duration="1500">
             <figure><img className='h-full w-full' src={image} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="text-center font-bold text-2xl">{name}</h2>

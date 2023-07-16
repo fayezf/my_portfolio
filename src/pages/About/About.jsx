@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaLinkedin } from 'react
 const About = () => {
     return (
         <div className='mt-32'>
-            <div className='md:flex justify-center'>
+            <div className='md:flex justify-center px-16'>
                 <img style={{ width: '300px', border: 'outset' }} src={photo} alt="" />
             </div>
             <h2 className='text-3xl text-center text-teal-500 uppercase mt-8'>I'm Fayez Ahammed</h2>
@@ -16,7 +16,7 @@ const About = () => {
                 <a className='text-blue-500 text-2xl hover:scale-150 hover:bg-slate-50 animate-pulse' href="https://www.instagram.com/mohammad_fayez_ahmed/"><FaInstagram /></a>
                 <a className='text-blue-500 text-2xl hover:scale-150 hover:bg-slate-50 animate-pulse' href="https://github.com/fayezf"><FaGithubSquare /></a>
             </div>
-            <div className='flex justify-center gap-28'>
+            <div className='md:flex justify-center gap-28 px-16'>
                 <div>
                     <h2 className='text-4xl text-center text-teal-500 font-bold mt-20'>My Skills</h2>
                     <div>
