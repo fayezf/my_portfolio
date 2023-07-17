@@ -12,7 +12,7 @@ const Projects2 = () => {
     }, [])
     return (
         <div>
-            <div className='md:flex gap-4 my-16 px-8' data-aos = "fade-up">
+            <div className='md:flex gap-4 my-16 px-8' data-aos="fade-up" data-aos-duration="1500">
                 <div className="carousel w-1/4 ml-80 ">
                     <div id="slide1" className="carousel-item relative w-full">
                         <img src={img1} className="w-full" />
@@ -50,8 +50,8 @@ const Projects2 = () => {
                     <li className='text-slate-400 font-montserrat'>Admin can delete,add and manage users.</li>
                     <li className='text-slate-400 font-montserrat'>Admin can make admin also</li>
                     <li className='text-slate-400 font-montserrat'>User can Login via (Google Sign-in)</li>
-                    <li className='text-slate-400 font-montserrat'><span className='text-slate-400'>Front-end technology:</span>React js, Tailwind,React Router, Firebase Authentication</li>
-                    <li className='text-slate-400 font-montserrat'><span className='text-slate-400'>Back-end technology:</span>Node js,Express js, MongoDB</li>
+                    <li className='text-slate-400 font-montserrat'><span className='text-teal-400'>Front-end technology:</span>React js, Tailwind,React Router, Firebase Authentication</li>
+                    <li className='text-slate-400 font-montserrat'><span className='text-teal-400'>Back-end technology:</span>Node js,Express js, MongoDB</li>
                     <div className='md:flex gap-4'>
                         <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://education-learning-toys.web.app/">Live Preview</a></button>
                         <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://github.com/fayezf/kid-toy-client">Client Code</a></button>

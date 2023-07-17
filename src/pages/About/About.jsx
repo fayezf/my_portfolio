@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 import photo from '../../assets/image/img.png';
 import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div className='mt-32'>
             <div className='md:flex justify-center px-16'>
@@ -19,7 +23,7 @@ const About = () => {
             <div className='md:flex justify-center gap-28 px-16'>
                 <div>
                     <h2 className='text-4xl text-center text-teal-500 font-bold mt-20'>My Skills</h2>
-                    <div>
+                    <div data-aos="fade-left" data-aos-duration="1500">
                         <li className='text-red-600 mt-4 text-2xl font-medium'>Expertise:</li>
                         <div className='mt-1'>
                             <span className='bg-slate-500 text-white font-medium rounded-sm px-2'>HTML</span>
@@ -37,7 +41,7 @@ const About = () => {
                         <span className='bg-slate-500 text-white font-medium rounded-sm px-2 ml-4'>React Router</span>
                         <span className='bg-slate-500 text-white font-medium rounded-sm px-2 ml-4'>MongoDB</span>
                     </div>
-                    <div>
+                    <div data-aos="fade-left" data-aos-duration="1500">
                         <li className='text-red-600 text-2xl mt-4 font-medium'>Comfortable:</li>
                         <div className='mt-2'>
                             <span className='bg-slate-500 text-white font-medium rounded-sm px-2'>Firebase</span>
@@ -45,7 +49,7 @@ const About = () => {
                             <span className='bg-slate-500 text-white font-medium rounded-sm px-2 ml-4'>Rest api</span>
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="1500">
                         <li className='text-red-600 text-2xl mt-4 font-medium'>Familiar:</li>
                         <div className='mt-2'>
                             <span className='bg-slate-500 text-white font-medium rounded-sm px-2'>Node.js</span>
@@ -57,7 +61,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="1500">
                         <li className='text-red-600 text-2xl mt-4 font-medium'>Tools:</li>
                         <div className='mt-1'>
                             <span className='bg-slate-500 text-white font-medium rounded-sm px-2'>Git</span>
@@ -76,8 +80,8 @@ const About = () => {
                 </div>
                 <div>
                     <h2 className='text-4xl text-center text-teal-500 font-bold mt-20'>My Education</h2>
-                    <h2 className='text-red-600 text-2xl mt-4 font-medium'>Graduation</h2>
-                    <p className='text-teal-400 mt-4 font-semibold'>Diploma in CSE, Narayanganj <br /> Polytechnic Institute (Narayanganj, Bangladesh)</p>
+                    <h2 className='text-red-600 text-2xl mt-4 font-medium' data-aos="fade-right" data-aos-duration="1500">Graduation</h2>
+                    <p className='text-teal-400 mt-4 font-semibold' data-aos="fade-right" data-aos-duration="1500">Diploma in CSE, Narayanganj <br /> Polytechnic Institute (Narayanganj, Bangladesh)</p>
                 </div>
             </div>
         </div>

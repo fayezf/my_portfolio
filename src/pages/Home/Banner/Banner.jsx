@@ -5,17 +5,9 @@ import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaLinkedin } from 'react
 
 
 const Banner = () => {
-
-    // const handleDownload = () => {
-    //     const url = "/public/fayez_resume.pdf";
-    //     const anchor = document.createElement("a");
-    //     anchor.href = url;
-    //     anchor.download = "resume.pdf";
-    //     anchor.click();
-    // }
     return (
         <div>
-            <div className='flex flex-col md:flex-row-reverse items-center mt-12 mr-24'>
+            <div className='flex flex-col md:flex-row-reverse items-center mt-12 mr-24 ml-8'>
                 <img className='ml-16 mt-20' style={{ width: '300px', border: 'inset' }} src={img} alt="" />
                 <div className='mt-16'>
                     <h2 className=' text-center font-bold font-montserrat text-slate-400'>Assalamu Alaikum</h2>
@@ -32,7 +24,7 @@ const Banner = () => {
                                 'Front End Developer',
                                 1000,
                             ]}
-                            speed={50}
+                            speed={30}
                             style={{ fontSize: '2em', display: 'inline-block' }}
                             repeat={Infinity}
                         />
