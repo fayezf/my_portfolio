@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import photo from '../../assets/image/img.png';
-import { FaFacebookSquare, FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const About = () => {
     useEffect(() => {
@@ -15,10 +15,10 @@ const About = () => {
             <h2 className='text-3xl text-center text-teal-500 uppercase mt-8'>I'm Fayez Ahammed</h2>
             <p className='mt-4 text-slate-400 font-montserrat text-center'>I am an enthusiastic JavaScript developer with <br /> knowing some framework for the frontend and <br /> the backend. I am basically a MERN developer. <br /> I always focus on learning new technology.</p>
             <div className='flex gap-x-6 justify-center mt-12'>
-                <a className='text-blue-500 text-2xl hover:scale-150 hover:bg-slate-50 animate-pulse' href="https://www.linkedin.com/in/muhammad-fayez-48989127b/"><FaLinkedin /></a>
-                <a className='text-blue-500 text-2xl hover:scale-150 hover:bg-slate-50 animate-pulse' href="https://www.facebook.com/fayez.chowdhury.7374/"><FaFacebookSquare /></a>
-                <a className='text-blue-500 text-2xl hover:scale-150 hover:bg-slate-50 animate-pulse' href="https://www.instagram.com/mohammad_fayez_ahmed/"><FaInstagram /></a>
-                <a className='text-blue-500 text-2xl hover:scale-150 hover:bg-slate-50 animate-pulse' href="https://github.com/fayezf"><FaGithubSquare /></a>
+                <a className=' text-lg text-white bg-slate-800 rounded-full p-2 hover:bg-blue-500 animate-pulse' href="https://www.facebook.com/fayez.chowdhury.7374/"><FaFacebookF /></a>
+                <a className=' text-lg text-white bg-slate-800 rounded-full p-2 hover:bg-blue-500 animate-pulse' href="https://www.instagram.com/mohammad_fayez_ahmed/"><FaInstagram /></a>
+                <a className=' text-lg text-white bg-slate-800 rounded-full p-2 hover:bg-blue-500 animate-pulse' href="https://github.com/fayezf"><FaGithub /></a>
+                <a className=' text-lg text-white bg-slate-800 rounded-full p-2 hover:bg-blue-500 animate-pulse' href="https://www.linkedin.com/in/muhammad-fayez-48989127b/"><FaLinkedinIn /></a>
             </div>
             <div className='md:flex justify-center gap-28 px-16'>
                 <div>

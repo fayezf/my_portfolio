@@ -34,7 +34,7 @@ const ContactUs = () => {
                         <textarea name='message' className="textarea textarea-bordered h-24 w-2/3 text-center bg-slate-50 text-slate-400 font-semibold" placeholder="Type your message"></textarea>
                     </div>
                     <div className='ml-32'>
-                        <input className='btn btn-wide btn-accent mt-4 bg-teal-500 text-white' type="submit" value="Send" />
+                        <input className='btn btn-wide btn-accent mt-4 bg-teal-500 text-white' type="submit" value="Send Message" />
                     </div>
                 </form>
             </div>
