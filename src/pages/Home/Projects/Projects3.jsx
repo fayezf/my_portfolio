@@ -22,8 +22,8 @@ const Projects3 = () => {
                     <li className='text-slate-400 font-montserrat'><span className='text-teal-400'>Back-end technology:</span>Node js,Express js</li>
                     <div className='md:flex gap-4 mt-2'>
                         <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://chef-hunter-client-6efb9.web.app/">Live Preview</a></button>
-                        <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://github.com/fayezf/kid-toy-client">Client Code</a></button>
-                        <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://github.com/fayezf/kid-toy-server">Server Code</a></button>
+                        <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://github.com/fayezf/panpie-client">Client Code</a></button>
+                        <button className='btn btn-primary border-none btn-sm text-white bg-teal-600'><a href="https://github.com/fayezf/panpie-server">Server Code</a></button>
                     </div>
                 </div>
             </div>
